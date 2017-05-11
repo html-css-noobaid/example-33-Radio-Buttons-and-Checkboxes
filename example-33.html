@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Radio Buttons and Checkboxes</title>
+	</head>
+
+	<body>
+		<form action="http://www.example.com/login.php">
+			<p> Username:
+			      <input type="text" name="username" 
+				size="15" maxlength = "30" />
+			</p>
+	
+			<p> Password:
+			      <input type="password" name="password" 
+				size="15" maxlength="30" />
+			</p>
+		</form>
+
+		<form action="http://www.example.com/comments.php">
+			<p>Tell us about yourself.</p>
+			<textarea name="comments" cols="20" 
+			rows="4">Enter your comments...</textarea>
+		</form>
+
+		<form action="http://www.example.com/profile.php">
+			<p>How did you hear about us?:
+				<br />
+				<input type="radio" value="friend" name="radio" 
+				/> Friend
+				<input type="radio" value="ad" name="radio"
+				/> Online/Ad
+				<input type="radio"  value="other" name="radio"
+				/> Other
+			</p>
+		</form>
+
+		<form action="http://www.example.com/profile.php">
+			<p>What type of work are you interested in?(check all that apply):
+				<br />
+				<input type="checkbox"  name="checkbox"
+				value="part" /> Part-Time
+				<input type="checkbox" name="checkbox"
+				 value="full" /> Full-Time
+				<input type="checkbox" name="checkbox"
+				value="intern" /> Internship
+			</p>
+		</form>
+	</body>
+</html>
